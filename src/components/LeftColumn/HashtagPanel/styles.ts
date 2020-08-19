@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { FaHashtag } from 'react-icons/fa';
 
 export const Container = styled.div`
+  position: sticky;
+  top: 64px;
   > div {
     margin-top: 8px;
     display: flex;
@@ -9,7 +11,6 @@ export const Container = styled.div`
     font-size: 12px;
     font-weight: 600;
     padding: 8px 12px 16px;
-
     .title {
       color: var(--color-link);
       margin-bottom: 10px;
